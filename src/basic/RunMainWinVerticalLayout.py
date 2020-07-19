@@ -1,5 +1,5 @@
 # encoding=utf-8
-# 代码文件：HelloProj/src/basic/RunMainWinHorizontalLayout.py
+# 代码文件：HelloProj/src/basic/RunMainWinVerticalalLayout.py
 
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow
