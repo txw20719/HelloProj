@@ -2,7 +2,7 @@
 # 代码文件：HelloProj/src/basic/RunMainWinHorizontalLayout.py
 
 import sys
-from PyQt5.QtWidgets import QApplication,QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow
 
 
 from src.designer.MainWinHorizontalLayout import Ui_MainWindow
