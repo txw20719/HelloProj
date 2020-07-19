@@ -12,6 +12,7 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     mainWin = QMainWindow()
     ui = Ui_MainWindow()
+    # 向主窗口添加控件
     ui.setupUi(mainWin)
     mainWin.show()
     sys.exit(app.exec_())
