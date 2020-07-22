@@ -25,6 +25,7 @@ def onClick_Button():
     print('widget.frameGeometry().width():%d' % widget.frameGeometry().width())  # 窗口宽度
     print('widget.frameGeometry().height():%d' % widget.frameGeometry().height())
 
+
 app = QApplication(sys.argv)
 widget = QWidget()
 btn = QPushButton(widget)
