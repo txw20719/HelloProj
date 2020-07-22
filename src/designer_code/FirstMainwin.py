@@ -11,6 +11,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication, QDesktopWidget, QPushButt
 class FirstMainWin(QMainWindow):
     def __init__(self):
         super(FirstMainWin, self).__init__()
+
         # 设置窗口标题
         self.setWindowTitle('第一个主窗口')
 
