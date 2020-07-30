@@ -21,7 +21,7 @@ def onClick_Button():
     print('widget.geometry().height():%d' % widget.geometry().height())
 
     print('widget.frameGeometry().x():%d' % widget.frameGeometry().x())
-    print('widget.frameGeometry().x():%d' % widget.frameGeometry().x())
+    print('widget.frameGeometry().x():%d' % widget.frameGeometry().y())
     print('widget.frameGeometry().width():%d' % widget.frameGeometry().width())  # 窗口宽度
     print('widget.frameGeometry().height():%d' % widget.frameGeometry().height())
 
