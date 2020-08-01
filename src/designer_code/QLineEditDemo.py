@@ -2,6 +2,11 @@
 # 代码文件：HelloProj/src/designer_code/QLineEditDemo.py
 """
 尝试QLineEdit控件的4种EchoMode
+
+1. Normal  # 显示
+2. NoEcho  # 不显示，但已输入
+3. Password  # 直接隐藏
+4. PasswordEchoOnEdit  # 过一段时间隐藏
 """
 
 
