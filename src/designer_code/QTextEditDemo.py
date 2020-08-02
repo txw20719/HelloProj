@@ -17,23 +17,35 @@ class QTextEditDemo(QWidget):
         self.textEdit = QTextEdit()
         self.buttonText = QPushButton('显示文本')
         self.buttonHTML = QPushButton('显示HTML')
+        self.buttonToText = QPushButton('获取文本')
+        self.buttonToHTML = QPushButton('获取HTML')
 
         # 给button的信号绑定槽
         self.buttonText.clicked.connect(self.onClick_buttonText)
         self.buttonHTML.clicked.connect(self.onClick_buttonHTML)
+        self.buttonToText.clicked.connect(self.onClick_buttonToText)
+        self.buttonToHTML.clicked.connect(self.onClick_buttonToHTML)
 
         layout = QVBoxLayout()
         layout.addWidget(self.textEdit)
         layout.addWidget(self.buttonText)
         layout.addWidget(self.buttonHTML)
+        layout.addWidget(self.buttonToText)
+        layout.addWidget(self.buttonToHTML)
 
         self.setLayout(layout)
 
     def onClick_buttonText(self):
-        self.textEdit.setText('Hello World!!')
+        self.textEdit.setPlainText('Hello World!!')
 
     def onClick_buttonHTML(self):
         self.textEdit.setHtml("<font color='green' size='10'>Hello World!!</font>")
+
+    def onClick_buttonToText(self):
+        print(self.textEdit.toPlainText())
+
+    def onClick_buttonToHTML(self):
+        print(self.textEdit.toHtml())
 
 
 if __name__ == '__main__':
