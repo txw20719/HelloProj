@@ -1,5 +1,5 @@
 # encoding=utf-8
-# 代码文件：HelloProj/src/QComboBoxDemo.py
+# 代码文件：HelloProj/src/designer_code/QComboBoxDemo.py
 """列表控件（QComboBox）
 
 1.将列表项添加到QComboBox
