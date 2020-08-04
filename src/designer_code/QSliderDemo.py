@@ -1,6 +1,7 @@
 # encoding=utf-8
 # 代码文件：HelloProj/src/designer_code/QSliderDemo.py
-
+"""滑块控件（QSlider）
+"""
 
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QSlider, QLabel, QGridLayout
