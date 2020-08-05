@@ -1,7 +1,6 @@
 # encoding=utf-8
 # 代码文件：HelloProj/src/designer_code/QFontDialog.py
 
-
 import sys
 from PyQt5.QtWidgets import QFontDialog, QLabel, QWidget, QApplication, QVBoxLayout, QPushButton
 
