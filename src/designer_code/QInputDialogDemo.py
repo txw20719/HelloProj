@@ -1,7 +1,6 @@
 # encoding=utf-8
 # 代码文件：HelloProj/src/designer_code/QInputDialogDemo.py
 
-
 import sys
 from PyQt5.QtWidgets import QLineEdit, QFormLayout, QWidget, QApplication, QInputDialog, QPushButton
 
