@@ -4,7 +4,6 @@
 
 1. 如何弹出菜单
 2. 如何满足条件的情况下弹出菜单
-QMenu.exc_()
 QMenu实例中的exec(pos)
 """
 import sys
