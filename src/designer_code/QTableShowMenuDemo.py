@@ -4,7 +4,11 @@
 
 1. 如何弹出菜单
 2. 如何满足条件的情况下弹出菜单
+<<<<<<< HEAD
 QMenu.exc_()
+=======
+QMenu实例中的exec(pos)
+>>>>>>> 5e4dde4... tableShowManu
 """
 import sys
 from PyQt5.QtWidgets import *
