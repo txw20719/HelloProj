@@ -1,15 +1,11 @@
 # encoding=utf-8
 # 代码文件：HelloProj/src/designer_code/QTableShowManuDemo.py
-
 """QTableWidget（在表格中显示上下文菜单）
 
 1. 如何弹出菜单
 2. 如何满足条件的情况下弹出菜单
-<<<<<<< HEAD
 QMenu.exc_()
-=======
 QMenu实例中的exec(pos)
->>>>>>> 5e4dde4... tableShowManu
 """
 import sys
 from PyQt5.QtWidgets import *
