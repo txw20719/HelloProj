@@ -1,5 +1,6 @@
 # encoding=utf-8
 # 代码文件：HelloProj/src/designer_code/QTableShowManuDemo.py
+
 """QTableWidget（在表格中显示上下文菜单）
 
 1. 如何弹出菜单
