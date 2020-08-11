@@ -22,7 +22,6 @@ class QTreeWidgetClickDemo(QWidget):
         self.tree.setHeaderLabels(['Key', 'Value'])
         self.tree.setColumnWidth(0, 180)
 
-
         root = QTreeWidgetItem(self.tree)
         root.setText(0, '根节点')
         root.setText(1, '根节点的数据')
