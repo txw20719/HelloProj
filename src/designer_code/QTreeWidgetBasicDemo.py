@@ -13,7 +13,7 @@ class QTreeWidgetBasicDemo(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('多行文本控件')
+        self.setWindowTitle('树控件')
         self.resize(300, 280)
         layout = QVBoxLayout()
 
