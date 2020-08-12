@@ -34,15 +34,9 @@ class QMdiAreaDemo(QMainWindow):
             self.mdi.addSubWindow(sub)
             sub.show()
         elif q.text() == 'Cascade':
-<<<<<<< HEAD
-            self.mdi.cascadeSubWindows()
-        elif q.text() == 'Tiled':
-            self.mdi.tileSubWindows()
-=======
             self.mdi.cascadeSubWindows()  # 窗口重叠
         elif q.text() == 'Tiled':
             self.mdi.tileSubWindows()  # 窗口平铺
->>>>>>> 0fc346b... mdiArea
 
 
 if __name__ == '__main__':
